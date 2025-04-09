@@ -7,16 +7,22 @@
 
 // ---------------------------------------------------
 
-var idade = 20;
+// var idade = 20;
 
-var menor10 = idade <= 10;
-var maior30 = idade >= 30;
+// var menor10 = idade <= 10;
+// var maior30 = idade >= 30;
 
-var gratuidade = menor10 || maior30;
+// var gratuidade = menor10 || maior30;
 
-console.log("Idade", idade);
-console.log("Menor que 10", menor10);
-console.log("Maior que 30", maior30);
-console.log("Tem direito a gratuidade?", gratuidade);
+// console.log("Idade", idade);
+// console.log("Menor que 10", menor10);
+// console.log("Maior que 30", maior30);
+// console.log("Tem direito a gratuidade?", gratuidade);
 
 // ---------------------------------------------------
+
+var numero = parseInt(prompt("Digite um Número"));
+
+var dobro = numero + numero;
+
+alert("O dobro de " + numero + " é " + dobro);
