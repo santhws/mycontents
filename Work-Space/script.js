@@ -29,14 +29,47 @@
 
 // ---------------------------------------------------
 
-var idade = 22;
+// var idade = 22;
 
-if (idade < 18 || idade > 70) {
-  console.log("Pode");
-  console.log("Qual o seu pedido");
-} else {
-  console.log("Não Pode");
-  console.log("Mostre sua Indetidade");
-}
+// if (idade < 18 || idade > 70) {
+//   console.log("Pode");
+//   console.log("Qual o seu pedido");
+// } else {
+//   console.log("Não Pode");
+//   console.log("Mostre sua Indetidade");
+// }
 
 // ---------------------------------------------------
+
+var nota1 = 7;
+var nota2 = 5.5;
+
+var media = (nota1 + nota2) / 2;
+
+var conceito = "";
+
+if (media >= 8) {
+  conceito = "Òtimo";
+} else if (media >= 6.5) {
+  conceito = "Bom";
+} else {
+  conceito = "Regular";
+}
+
+console.log(media);
+console.log(conceito);
+
+switch (conceito) {
+  case "Òtimo":
+    console.log("Parabéns");
+    break;
+  case "Bom":
+    console.log("Indo Bem");
+    break;
+  case "Regular":
+    console.log("Quase");
+    break;
+
+  default:
+    console.log("Houve algum Erro");
+}
