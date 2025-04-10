@@ -21,8 +21,22 @@
 
 // ---------------------------------------------------
 
-var numero = parseInt(prompt("Digite um Número"));
+// var numero = parseInt(prompt("Digite um Número"));
 
-var dobro = numero + numero;
+// var dobro = numero + numero;
 
-alert("O dobro de " + numero + " é " + dobro);
+// alert("O dobro de " + numero + " é " + dobro);
+
+// ---------------------------------------------------
+
+var idade = 22;
+
+if (idade < 18 || idade > 70) {
+  console.log("Pode");
+  console.log("Qual o seu pedido");
+} else {
+  console.log("Não Pode");
+  console.log("Mostre sua Indetidade");
+}
+
+// ---------------------------------------------------
