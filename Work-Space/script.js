@@ -41,35 +41,45 @@
 
 // ---------------------------------------------------
 
-var nota1 = 7;
-var nota2 = 5.5;
+// var nota1 = 7;
+// var nota2 = 5.5;
 
-var media = (nota1 + nota2) / 2;
+// var media = (nota1 + nota2) / 2;
 
-var conceito = "";
+// var conceito = "";
 
-if (media >= 8) {
-  conceito = "Òtimo";
-} else if (media >= 6.5) {
-  conceito = "Bom";
-} else {
-  conceito = "Regular";
+// if (media >= 8) {
+//   conceito = "Òtimo";
+// } else if (media >= 6.5) {
+//   conceito = "Bom";
+// } else {
+//   conceito = "Regular";
+// }
+
+// console.log(media);
+// console.log(conceito);
+
+// switch (conceito) {
+//   case "Òtimo":
+//     console.log("Parabéns");
+//     break;
+//   case "Bom":
+//     console.log("Indo Bem");
+//     break;
+//   case "Regular":
+//     console.log("Quase");
+//     break;
+
+//   default:
+//     console.log("Houve algum Erro");
+// }
+
+// ---------------------------------------------------
+
+var numero = 5;
+
+for (var vez = 1; vez <= numero; vez++) {
+  console.log("Execuntando o for pela " + vez + " Vez");
 }
 
-console.log(media);
-console.log(conceito);
-
-switch (conceito) {
-  case "Òtimo":
-    console.log("Parabéns");
-    break;
-  case "Bom":
-    console.log("Indo Bem");
-    break;
-  case "Regular":
-    console.log("Quase");
-    break;
-
-  default:
-    console.log("Houve algum Erro");
-}
+console.log("Acabou!");
