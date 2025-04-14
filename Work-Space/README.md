@@ -1,1 +1,5 @@
-Dia 1, aprendendo mais sobre JavaScript
+i'm learning (: >) <br>
+------------------------------------------------ <br>
+HTML+ <br>
+CSS+ <br>
+JavaScript <br>

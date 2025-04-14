@@ -76,10 +76,22 @@
 
 // ---------------------------------------------------
 
-var numero = 5;
+// var numero = 5;
 
-for (var vez = 1; vez <= numero; vez++) {
-  console.log("Execuntando o for pela " + vez + " Vez");
+// for (var vez = 1; vez <= numero; vez++) {
+//   console.log("Execuntando o for pela " + vez + " Vez");
+// }
+
+// console.log("Acabou!");
+
+// ---------------------------------------------------
+
+var alunos = ["Fabio", "Gaby", "Teo", "Karma"];
+
+// for (var i = 0; i < alunos.length; i++) {
+//   console.log(alunos[i]);
+// }
+
+for (var aluno of alunos) {
+  console.log(aluno);
 }
-
-console.log("Acabou!");
