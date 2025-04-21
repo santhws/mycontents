@@ -86,12 +86,28 @@
 
 // ---------------------------------------------------
 
-var alunos = ["Fabio", "Gaby", "Teo", "Karma"];
+// var alunos = ["Fabio", "Gaby", "Teo", "Karma"];
 
-// for (var i = 0; i < alunos.length; i++) {
-//   console.log(alunos[i]);
+// // for (var i = 0; i < alunos.length; i++) {
+// //   console.log(alunos[i]);
+// // }
+
+// for (var aluno of alunos) {
+//   console.log(aluno);
 // }
 
-for (var aluno of alunos) {
-  console.log(aluno);
+// ---------------------------------------------------
+
+function media(n1, n2) {
+  var nota1 = n1;
+  var nota2 = n2;
+  var media = (nota1 + nota2) / 2;
+  // console.log(media);
+
+  return media;
 }
+
+var resultado1 = media(6, 7);
+var resultado2 = media(8, 7);
+
+console.log(resultado1 + " e " + resultado2);
