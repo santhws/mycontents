@@ -115,33 +115,15 @@
 // ---------------------------------------------------
 
 function calcMedia() {
-  return (this.notas[0] + this.notas[1]) / 2;
+  return this.notas[0] + this.notas[1] / 2;
 }
 
-// function situation(media) {
-//   if (media > 7) {
-//     return "Aprovado";
-//   } else {
-//     return "Reprovado";
-//   }
-// }
-
 var aluno = {
-  nome: "Jose",
-  notas: [3, 7],
-
-  media: calcMedia,
-};
-
-var aluno1 = {
-  nome: "Carla",
-  notas: [9, 9],
+  nome: "lucas",
+  notas: [6, 9],
 
   media: calcMedia,
 };
 
 console.log(aluno.nome);
 console.log(aluno.media());
-
-console.log(aluno1.nome);
-console.log(aluno1.media());
