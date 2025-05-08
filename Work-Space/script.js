@@ -112,18 +112,20 @@
 
 // console.log(resultado1 + " e " + resultado2);
 
+// --------------------------------------------------- metodos
+
+// function calcMedia() {
+//   return this.notas[0] + this.notas[1] / 2;
+// }
+
+// var aluno = {
+//   nome: "lucas",
+//   notas: [6, 9],
+
+//   media: calcMedia,
+// };
+
+// console.log(aluno.nome);
+// console.log(aluno.media());
+
 // ---------------------------------------------------
-
-function calcMedia() {
-  return this.notas[0] + this.notas[1] / 2;
-}
-
-var aluno = {
-  nome: "lucas",
-  notas: [6, 9],
-
-  media: calcMedia,
-};
-
-console.log(aluno.nome);
-console.log(aluno.media());
