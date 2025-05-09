@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar app.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Python-e-Flash/app.py",
+      "console": "integratedTerminal",
+      "python": "C:/Users/Santee/AppData/Local/Programs/Python/Python313/python.exe"
+    }
+  ]
+}
