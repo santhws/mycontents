@@ -7,6 +7,4 @@
        HTML5
        CSS3
        JavaScript
-       Python - Flask;
-
-
+       Python - Flask; Request; SQLAlchemy; Jsonify;
