@@ -1,12 +1,11 @@
+
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ecommerce.db'  # configuração do banco de dados
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ecommerce.db'  
 
-db = SQLAlchemy(app)  # conexão do banco de dados
-
-# Modelagem
+db = SQLAlchemy(app)  
 
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -30,10 +29,9 @@ def delete_product(product_id):
     if product:
         db.session.delete(product)
         db.session.commit()
-        return jsonify({'message': "Product deleted successfully"}), 200  # Status 200 OK
-    return jsonify({'message': "Product not found"}), 404  # Status 404 Not Found
+        return jsonify({'message': "Product deleted successfully"}), 200  
+    return jsonify({'message': "Product not found"}), 404  
 
-# Definir uma rota raiz (página inicial) e a função que será executada ao requisitar
 
 @app.route('/')
 def Hello_Word():
@@ -41,5 +39,5 @@ def Hello_Word():
 
 if __name__ == "__main__":
     with app.app_context():
-        db.create_all()  # Criar as tabelas no banco de dados, se ainda não existirem
+        db.create_all()  
     app.run(debug=True)
